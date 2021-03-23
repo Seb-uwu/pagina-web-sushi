@@ -1,0 +1,74 @@
+.menu-area{
+    background: rgb(206, 33, 33);
+    height: 64px;
+}
+.container{
+    width: 76.5%;
+    margin: 0 auto;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu > ul > li{
+    padding: 20px 20px;
+    float: left;
+}
+.main-menu > ul > li:hover{
+    background: rgb(168, 20, 20);
+}
+.main-menu ul li{
+    list-style: none;
+    position: relative;
+    background: rgb(206, 33, 33);
+}
+.main-menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.main-menu ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+}
+.main-menu ul li ul li{
+    display: none;
+    padding: 10px;
+}
+.main-menu ul li:hover > ul li{
+    padding: 20px;
+    display: block;
+    width: 150px;
+    background: rgb(204, 29, 29);
+}
+.main-menu ul li ul li:hover{
+    background:  rgb(163, 27, 27);
+}
+.main-menu ul li ul li ul{
+    position: relative;
+    display: none;
+}
+
+/*NAV SLICK*/
+.slicknav_menu .slicknav_menutxt{
+    display: none;
+}
+.slicknav_menu .slicknav_icon{
+    margin: 0.188em 4px 0 0.40em;
+}
+.slicknav_menu{
+    display: none;
+}
+.slicknav_nav a:hover{
+    background-color: rgb(168, 20, 20);
+    color: white;
+}
+.slicknav_nav .slicknav_item:hover{
+    background-color: rgb(168, 20, 20);
+    color: white;
+}
